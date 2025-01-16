@@ -30,7 +30,9 @@ window.onload = function() {
            {url: "https://metais.slovensko.sk/api/iam/v3/api-docs", name: "iam"},
            {url: "https://metais.slovensko.sk/api/opendata/v3/api-docs", name: "opendata"},
            {url: "https://metais.slovensko.sk/api/wiki/v3/api-docs", name: "wiki"},
-           {url: "https://metais.slovensko.sk/api/global-config/v3/api-docs", name: "global-config"}
+           {url: "https://metais.slovensko.sk/api/global-config/v3/api-docs", name: "global-config"},
+           {url: "https://metais-test.slovensko.sk/api/trainings/v3/api-docs", name: "trainings"},
+           {url: "https://metais-test.slovensko.sk/api/claim-manager/v3/api-docs", name: "claim-manager"}
           ],
     dom_id: '#swagger-ui',
     deepLinking: true,
