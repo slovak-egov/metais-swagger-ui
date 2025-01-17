@@ -33,7 +33,6 @@ window.onload = function() {
            {url: "https://metais.slovensko.sk/api/global-config/v3/api-docs", name: "global-config"},
            {url: "https://metais.slovensko.sk/api/trainings/v3/api-docs", name: "trainings"},
            {url: "https://metais.slovensko.sk/api/claim-manager/v3/api-docs", name: "claim-manager"},
-           # list of TEST API
            {url: "https://metais-test.slovensko.sk/api/user-config/v3/api-docs", name: "TEST_user-config"},
            {url: "https://metais-test.slovensko.sk/api/dms/v3/api-docs", name: "TEST_dms"},
            {url: "https://metais-test.slovensko.sk/api/types-repo/v3/api-docs", name: "TEST_types-repo"},
