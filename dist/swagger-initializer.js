@@ -34,10 +34,10 @@ window.onload = function() {
            {url: "https://metais-test.slovensko.sk/api/trainings/v3/api-docs", name: "trainings"},
            {url: "https://metais-test.slovensko.sk/api/claim-manager/v3/api-docs", name: "claim-manager"}
           ],
-    urls.primaryName: 'cmdb',
+    "urls.primaryName": "cmdb",
     dom_id: '#swagger-ui',
     deepLinking: true,
-    syntaxHighlight.theme: 'idea',
+    "syntaxHighlight.theme": "idea",
     supportedSubmitMethods: [
       "get",
       "put",
