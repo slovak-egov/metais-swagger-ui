@@ -7,7 +7,7 @@ window.onload = function() {
     urls: [
            {url: "https://metais.slovensko.sk/api/user-config/v3/api-docs", name: "user-config"},
            {url: "https://metais.slovensko.sk/api/dms/v3/api-docs", name: "dms"},
-           {url: "https://metais.slovensko.sk/api/types-repo/v3/api-docs", name: "metais-types-repo"},
+           {url: "https://metais.slovensko.sk/api/types-repo/v3/api-docs", name: "types-repo"},
            {url: "https://metais.slovensko.sk/api/bpm-engine/v3/api-docs", name: "bpm-engine"},  
            {url: "https://metais.slovensko.sk/api/validation/v3/api-docs", name: "validation"},
            {url: "https://metais.slovensko.sk/api/cmdb-audit/v3/api-docs", name: "cmdb-audit"},
@@ -34,8 +34,18 @@ window.onload = function() {
            {url: "https://metais-test.slovensko.sk/api/trainings/v3/api-docs", name: "trainings"},
            {url: "https://metais-test.slovensko.sk/api/claim-manager/v3/api-docs", name: "claim-manager"}
           ],
+    urls.primaryName: 'cmdb',
     dom_id: '#swagger-ui',
     deepLinking: true,
+    syntaxHighlight.theme: 'idea',
+    supportedSubmitMethods: [
+      "get",
+      "put",
+      "post",
+      "options",
+      "head",
+      "patch"
+    ],
     presets: [
       SwaggerUIBundle.presets.apis,
       SwaggerUIStandalonePreset
