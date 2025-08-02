@@ -1,0 +1,22 @@
+diff --git a/index.html b/index.html
+index 9a8c054..de36c71 100644
+--- a/index.html
++++ b/index.html
+@@ -10,6 +10,17 @@
+   </head>
+ 
+   <body>
++    <!-- IDSK Header tricolor -->
++    <div class="idsk-header-web__tricolor" style="display:block;width:100%;height:3px;background-image:linear-gradient(90deg,#fff 0,#fff 33.3%,#003183 0,#003183 66.6%,#d0190f 0,#d0190f);background-size:150px 100%;background-repeat:repeat;"></div>
++
++    <!-- METAIS & MIRRI SR Header -->
++    <div id="mirri-header" style="display:flex">
++      <div id="mirri" style="height=80px;width:300px"><img style="vertical-align:middle;margin:10px 10px" height="60" src="https://mirri.gov.sk/wp-content/uploads/2020/06/logo-miiri-farebne-sk-01-2.svg"></div>
++      <div id="metais" style="align-items:center;height:80px;width:300px;#background-color:#003078;">
++        &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:green">Prod: </span><a href="https://metais.slovensko.sk"><img style="background-color:white;vertical-align:middle;margin:10px 10px" height="30" src="https://metais.slovensko.sk/assets/logo-mirri-Dny9mmOG.svg"></a>
++        &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:orange">Test: </span><a href="https://metais-test.slovensko.sk"><img style="vertical-align:middle;margin:10px 10px" height="30" src="https://metais.slovensko.sk/assets/logo-mirri-Dny9mmOG.svg"></a>
++      </div>
++    </div>
+     <div id="swagger-ui"></div>
+     <script src="dist/swagger-ui-bundle.js" charset="UTF-8"> </script>
+     <script src="dist/swagger-ui-standalone-preset.js" charset="UTF-8"> </script>
